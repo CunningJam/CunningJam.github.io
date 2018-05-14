@@ -93,7 +93,7 @@ footer aside {
 	background-size: contain;
 }
 .sectionLeft {
-	width: 90%;
+	width: 30%;
 	background-image: -webkit-linear-gradient(270deg,rgba(233,233,233,0.71) 0%,rgba(213,213,213,0.52) 100%);
 	background-image: -moz-linear-gradient(270deg,rgba(233,233,233,0.71) 0%,rgba(213,213,213,0.52) 100%);
 	background-image: -o-linear-gradient(270deg,rgba(233,233,233,0.71) 0%,rgba(213,213,213,0.52) 100%);
@@ -111,6 +111,7 @@ footer aside {
 	padding-top: 20px;
 	margin-top: 149px;
 	padding-bottom: 25px;
+	min-width: 1040px;
 }
 .sectionLeft p {
 	float: left;

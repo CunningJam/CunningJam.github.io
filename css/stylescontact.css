@@ -74,7 +74,7 @@ footer aside {
 	background-size: contain;
 }
 .sectionLeft {
-	width: 90%;
+	width: 30%;
 	background-image: -webkit-linear-gradient(270deg,rgba(233,233,233,0.71) 0%,rgba(213,213,213,0.52) 100%);
 	background-image: -moz-linear-gradient(270deg,rgba(233,233,233,0.71) 0%,rgba(213,213,213,0.52) 100%);
 	background-image: -o-linear-gradient(270deg,rgba(233,233,233,0.71) 0%,rgba(213,213,213,0.52) 100%);
@@ -85,12 +85,33 @@ footer aside {
 	font-weight: 400;
 	padding-left: 10px;
 	padding-right: 10px;
-	text-align: center;
 	border-radius: 10px;
 	max-height: 420px;
 	min-height: 420px;
 	padding-top: 20px;
-	margin-top: 149px;
+	margin-top: 20px;
+	min-width: 1040px;
+	margin-bottom: 91px;
+}
+.sectionLeft2 {
+	width: 30%;
+	background-image: -webkit-linear-gradient(270deg,rgba(233,233,233,0.71) 0%,rgba(213,213,213,0.52) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(233,233,233,0.71) 0%,rgba(213,213,213,0.52) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(233,233,233,0.71) 0%,rgba(213,213,213,0.52) 100%);
+	background-image: linear-gradient(180deg,rgba(233,233,233,0.71) 0%,rgba(213,213,213,0.52) 100%);
+	margin-left: 5%;
+	font-family: muli;
+	font-style: normal;
+	font-weight: 400;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	max-height: 420px;
+	min-height: 420px;
+	padding-top: 20px;
+	margin-top: 20px;
+	min-width: 548px;
+	margin-bottom: 91px;
 }
 
 
@@ -113,6 +134,10 @@ footer {
 }
 .sectionLeft img {
 	text-align: center;
+	margin-top: 8px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	margin-left: 8px;
 
 
 }
@@ -129,4 +154,13 @@ footer {
 }
 .sectionLeft .subSec img {
 	text-align: right;
+}
+.sectionLeft2 p {
+	margin-top: -5px;
+	margin-bottom: 2px;
+	padding-left: 150px;
+	float: none;
+}
+.sectionLeft2 h4 {
+	padding-left: 100px;
 }
